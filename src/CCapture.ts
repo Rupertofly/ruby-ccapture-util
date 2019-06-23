@@ -1,3 +1,5 @@
+import './CCapture.all.min.js'
+
 interface CapOpts extends ICCaptureOptions {
   len: number;
   target: HTMLCanvasElement | HTMLElement;

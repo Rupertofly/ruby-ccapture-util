@@ -5,7 +5,10 @@ interface ICCaptureOptions {
     verbose?: boolean;
 
 }
-
+declare module '*.js' {
+  const out: any;
+  export default out
+}
 declare class CCapture {
     constructor( opts: ICCaptureOptions );
 

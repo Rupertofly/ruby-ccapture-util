@@ -1,7 +1,7 @@
 {
-  "name": "rubyq-utils",
+  "name": "ruby-ccapture-util",
   "version": "1.0.0",
-  "description": "myUtils",
+  "description": "my Utils for ruby",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -10,15 +10,8 @@
   "types": "dist/index.d.ts",
   "author": "Ruby Quail",
   "license": "ISC",
-  "dependencies": {
-    "d3": "^5.9.2",
-    "js-clipper": "^1.0.1",
-    "lodash": "^4.17.11",
-    "simplex-noise": "^2.4.0",
-    "victor": "^1.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@types/d3": "^5.7.2",
     "@types/lodash": "^4.14.134",
     "@types/victor": "^1.1.0",
     "typescript": "^3.5.1"
